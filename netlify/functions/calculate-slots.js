@@ -57,7 +57,7 @@ exports.handler = async (event, context) => {
     // Check if the event body exists and is not an empty string before parsing.
     if (event.body) {
       const body = JSON.parse(event.body);
-      rawBusySlots = body.calendars['haseebinfo607@gmail.com'].busy || [];
+      rawBusySlots = body.calendars['hamzanaseemdeploy@gmail.com'].busy || [];
     }
     
     // This is for debugging purposes. It will log the raw busy slots received.
